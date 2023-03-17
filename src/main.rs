@@ -1,3 +1,3 @@
 fn main() {
-    println!("Hello Zero to Production");
+    println!("Hello Zero to Production!");
 }
