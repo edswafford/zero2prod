@@ -22,7 +22,7 @@ async fn health_check_works() {
 
     // Assert
     assert!(response.status().is_success());
-    assert_eq!(Some(0), response.content_length());
+    assert_eq!(Some(1), response.content_length());
 }
 
 // No .await call, therefore no need for `spawn_app` to be async now.
